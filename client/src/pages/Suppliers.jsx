@@ -132,21 +132,21 @@ const Suppliers = () => {
       width: 50,
       cellRenderer: SupplierStatusRenderer,
     },
-    {
-      headerName: "Company",
-      field: "companyName",
-      sortable: true,
-      filter: true,
-      flex: 1.5,
-      cellRenderer: (params) => (
-        <Link
-          to={`/supplier/${params.data.supplierId}`}
-          className="text-decoration-none text-dark"
-        >
-          {params.value}
-        </Link>
-      ),
-    },
+    // {
+    //   headerName: "Company",
+    //   field: "companyName",
+    //   sortable: true,
+    //   filter: true,
+    //   flex: 1.5,
+    //   cellRenderer: (params) => (
+    //     <Link
+    //       to={`/supplier/${params.data.supplierId}`}
+    //       className="text-decoration-none text-dark"
+    //     >
+    //       {params.value}
+    //     </Link>
+    //   ),
+    // },
     {
       headerName: "Contact Name",
       field: "contactName",
@@ -168,20 +168,20 @@ const Suppliers = () => {
       filter: true,
       flex: 1,
     },
-    {
-      headerName: "City",
-      field: "city",
-      sortable: true,
-      filter: true,
-      flex: 1,
-    },
-    {
-      headerName: "State",
-      field: "state",
-      sortable: true,
-      filter: true,
-      flex: 1,
-    },
+    // {
+    //   headerName: "City",
+    //   field: "city",
+    //   sortable: true,
+    //   filter: true,
+    //   flex: 1,
+    // },
+    // {
+    //   headerName: "State",
+    //   field: "state",
+    //   sortable: true,
+    //   filter: true,
+    //   flex: 1,
+    // },
     {
       headerName: "Options",
       field: "options",

@@ -159,13 +159,13 @@ const Products = () => {
         </Link>
       ),
     },
-    {
-      headerName: "Category",
-      field: "category",
-      sortable: true,
-      filter: true,
-      flex: 1,
-    },
+    // {
+    //   headerName: "Category",
+    //   field: "category",
+    //   sortable: true,
+    //   filter: true,
+    //   flex: 1,
+    // },
     {
       headerName: "Description",
       field: "description",

@@ -1,7 +1,7 @@
 /**
  * src/pages/ForgotPassword.jsx
  *
- * Forgot Password page for Hairtag Inventory System.
+ * Forgot Password page for Hairtag Inventory System....
  * Uses React Hook Form for validation and AuthContext for initiating password reset.
  */
 
