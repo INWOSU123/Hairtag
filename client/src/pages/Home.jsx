@@ -1,4 +1,5 @@
 
+//This is the Home page for the Hairtag Inventory Management System
 import { Link } from "react-router-dom";
 
 const Home = () => {
