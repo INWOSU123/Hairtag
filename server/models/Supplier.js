@@ -6,7 +6,7 @@
  * Each supplier record stores information such as company name, contact details,
  * and address. Products in the system will reference suppliers via a foreign key.
  *
- * Significance:
+ * What is the Significance:
  * - Keeps track of all vendors providing inventory to the store.
  * - Enables relationship mapping between products and their respective suppliers.
  * - Useful for generating reports, managing reorders, and maintaining supplier history.
