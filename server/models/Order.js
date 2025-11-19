@@ -6,7 +6,7 @@
  * Each order tracks which user placed it, the products included, quantities,
  * total price, and the current order status.
  *
- * Significance:
+ * What is the Significance:
  * - Connects users to products, allowing the system to process and track sales.
  * - Enables stock adjustments in the Product model after each order.
  * - Supports reporting on sales, inventory turnover, and order history.
